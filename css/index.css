@@ -118,7 +118,62 @@ input{
 
 .section-four{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0% 5%;
+}
+.icon-with-info{
+    flex-basis: 33%;
+}
+.icon-with-info *{
+    margin: 3% 0%;
+}
+.icon-without-info{
+    flex-basis: 20%;
+    margin: 10% 0%;
+}
+
+/*-------------------section-five-------------------*/
+
+.section-five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0% 0% 5%;
+}
+.section-five p{
+    max-width: 50%;
+    margin: 1% 0%;
+}
+
+/*-------------------footer-------------------*/
+footer{
+    background-color: hsl(201, 11%, 66%);
+    display: flex;
+    align-items: center;
+    padding: 2% 0%;
+}
+footer ul:nth-child(1){
+    flex-basis: 15%;
+    display: flex;
+    justify-content: center;
+}
+footer ul:nth-child(1) img{
+    max-width: 40%;
+}
+footer ul:nth-child(2), footer ul:nth-child(3){
+    flex-basis: 15%;
+}
+footer ul:nth-child(4){
+    flex-basis: 30%;
+}
+.social{
+    display: flex;
+}
+.social li{
+    margin: 0% 10%;
 }
